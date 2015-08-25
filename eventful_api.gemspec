@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency  "oauth", ["~> 0.3.6"]
+  gem.add_dependency  "oauth", ["~> 0.4.7"]
   gem.add_dependency  "multi_json", ["~> 1.5.0"]
   gem.add_dependency  "addressable", ["~> 2.3.4"]
 
